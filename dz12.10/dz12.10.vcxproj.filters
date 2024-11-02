@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Source Files\practical">
+      <UniqueIdentifier>{1c5e35b5-739f-4b8c-b374-eb0449e818b2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\dz">
+      <UniqueIdentifier>{94a359ea-9613-48e1-85fa-bee5616df453}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="practical.cpp">
+      <Filter>Source Files\practical</Filter>
+    </ClCompile>
+    <ClCompile Include="dz.cpp">
+      <Filter>Source Files\dz</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
